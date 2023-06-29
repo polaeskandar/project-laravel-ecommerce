@@ -1,15 +1,28 @@
 <div class="flex items-center justify-between p-8 bg-white">
   <div class="font-semibold uppercase text-2xl tracking-widest">
-    <a href="#">Laravel<span class="text-rose-600">Shop</span></a>
+    <a class="flex items-center gap-1" href="#">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <span>Laravel<span class="text-rose-600">Shop</span></span>
+    </a>
   </div>
-  <ul class="flex items-center gap-5 text-lg">
-    <li><a class="text-gray-400 hover:text-rose-600" href="#">About us</a></li>
-    <li><a class="text-gray-400 hover:text-rose-600" href="#">Products</a></li>
-    <li><a class="text-gray-400 hover:text-rose-600" href="#">Categories</a></li>
+  <ul class="flex items-center gap-10 text-lg">
+    <li>
+      <a class="flex items-center gap-2 text-gray-400 hover:text-rose-600" href="#">
+        <i class="fa-solid fa-circle-info"></i>About us
+      </a>
+    </li>
+    <li>
+      <a class="flex items-center gap-2 text-gray-400 hover:text-rose-600" href="#">
+        <i class="fa-solid fa-store"></i>Products
+      </a>
+    </li>
+    <li>
+      <a class="flex items-center gap-2 text-gray-400 hover:text-rose-600" href="#">
+        <i class="fa-solid fa-boxes-stacked"></i>Categories
+      </a>
+    </li>
   </ul>
   <div class="flex items-center gap-2 text-xl">
-    <a class="hover:text-rose-600 text-gray-400" href="#">Login</a>
-    <span class="text-gray-400">|</span>
-    <a class="hover:text-rose-600 text-gray-400" href="#">Register</a>
+    <a class="flex items-center gap-2 hover:text-rose-600 text-gray-400" href="#"><i class="fa-solid fa-lock"></i>Login</a>
   </div>
 </div>
