@@ -10,5 +10,7 @@
     <script src="https://kit.fontawesome.com/0fff1d5488.js" crossorigin="anonymous" defer></script>
     @vite('resources/css/app.css')
   </head>
-  <body class="bg-gray-200"></body>
+  <body class="bg-gray-200">
+    <x-navbar></x-navbar>
+  </body>
 </html>
