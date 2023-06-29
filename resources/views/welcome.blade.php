@@ -6,5 +6,7 @@
     <title>eCommerce</title>
     @vite('resources/css/app.css')
   </head>
-  <body class="bg-gray-200"></body>
+  <body class="bg-gray-200">
+    <x-navbar></x-navbar>
+  </body>
 </html>
