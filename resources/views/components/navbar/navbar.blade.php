@@ -35,4 +35,4 @@
   </div>
 </div>
 
-<x-navbar.search-bar></x-navbar.search-bar>
+
