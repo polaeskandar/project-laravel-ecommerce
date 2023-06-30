@@ -1,10 +1,11 @@
-<div class="flex items-center justify-between p-8 bg-white">
+<div class="flex items-center flex-wrap gap-x-20 gap-y-5 justify-center lg:justify-between p-8 bg-white">
   <div class="font-semibold uppercase text-2xl tracking-widest">
     <a class="flex items-center gap-1" href="#">
       <i class="fa-solid fa-bag-shopping"></i>
       <span>Laravel<span class="text-rose-600">Store</span></span>
     </a>
   </div>
+
   <ul class="flex items-center gap-10 text-lg">
     <li>
       <a class="flex items-center gap-2 text-gray-400 hover:text-rose-600" href="#">
@@ -22,6 +23,7 @@
       </a>
     </li>
   </ul>
+
   <div class="flex items-center gap-5 text-xl">
     <a href="#" class="flex rounded items-center justify-center gap-3 text-gray-400 hover:text-white bg-white hover:bg-rose-600 px-4 py-1">
       <i class="fa-solid fa-cart-shopping"></i>
