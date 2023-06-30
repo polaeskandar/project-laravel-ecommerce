@@ -12,5 +12,6 @@
   </head>
   <body class="bg-gray-300">
     <x-navbar.navbar></x-navbar.navbar>
+    @yield('content')
   </body>
 </html>
