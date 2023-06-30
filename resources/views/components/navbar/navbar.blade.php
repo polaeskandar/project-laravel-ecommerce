@@ -34,3 +34,5 @@
     <a class="flex items-center gap-2 hover:text-rose-600 text-gray-400" href="#"><i class="fa-solid fa-lock"></i>Login</a>
   </div>
 </div>
+
+<x-navbar.search-bar></x-navbar.search-bar>
