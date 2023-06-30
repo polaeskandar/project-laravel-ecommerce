@@ -11,6 +11,6 @@
     @vite('resources/css/app.css')
   </head>
   <body class="bg-gray-200">
-    <x-navbar></x-navbar>
+    <x-navbar.navbar></x-navbar.navbar>
   </body>
 </html>
