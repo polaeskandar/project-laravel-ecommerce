@@ -22,7 +22,13 @@
       </a>
     </li>
   </ul>
-  <div class="flex items-center gap-2 text-xl">
+  <div class="flex items-center gap-5 text-xl">
+    <a href="#" class="flex rounded items-center justify-center gap-3 text-gray-400 hover:text-white bg-white hover:bg-rose-600 px-4 py-1">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="text-center font-semibold text-lg">
+        25
+      </span>
+    </a>
     <a class="flex items-center gap-2 hover:text-rose-600 text-gray-400" href="#"><i class="fa-solid fa-lock"></i>Login</a>
   </div>
 </div>
