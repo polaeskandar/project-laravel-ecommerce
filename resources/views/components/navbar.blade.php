@@ -2,7 +2,7 @@
   <div class="font-semibold uppercase text-2xl tracking-widest">
     <a class="flex items-center gap-1" href="#">
       <i class="fa-solid fa-bag-shopping"></i>
-      <span>Laravel<span class="text-rose-600">Shop</span></span>
+      <span>Laravel<span class="text-rose-600">Store</span></span>
     </a>
   </div>
   <ul class="flex items-center gap-10 text-lg">
