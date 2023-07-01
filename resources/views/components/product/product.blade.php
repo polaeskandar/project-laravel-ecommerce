@@ -57,6 +57,9 @@
 
   <div class="flex items-center justify-between mt-3">
     <span class="text-3xl font-bold">$1399</span>
-    <button class="bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-500">Add to cart</button>
+    <button class="flex items-center gap-2 bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-500">
+      <i class="fa-solid fa-cart-arrow-down"></i>
+      Add to cart
+    </button>
   </div>
 </x-ui.base-card>
