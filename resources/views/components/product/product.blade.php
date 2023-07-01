@@ -1,5 +1,7 @@
 <x-ui.base-card class="mb-10 px-10 py-8">
-  <img src="{{ asset('img/iphone-14.png') }}" class="mx-auto" style="max-height: 400px" alt="product">
+  <a href="#" class="block mx-auto">
+  <img src="{{ asset('img/iphone-14.png') }}" class="w-full" alt="product">
+  </a>
   <h4 class="text-xl font-semibold mt-6">
     iPhone 14 pro max
   </h4>
@@ -55,9 +57,9 @@
     </svg>
   </div>
 
-  <div class="flex items-center justify-between mt-3">
+  <div class="flex items-center justify-between mt-6">
     <span class="text-xl lg:text-3xl font-bold">$1399</span>
-    <button class="flex items-center gap-2 bg-rose-600 text-white px-4 py-2 text-xs lg:text-base rounded hover:bg-rose-500">
+    <button class="flex items-center gap-2 bg-rose-600 text-white px-4 py-2 text-sm lg:text-base rounded hover:bg-rose-500">
       <i class="fa-solid fa-cart-arrow-down"></i>
       Add to cart
     </button>
